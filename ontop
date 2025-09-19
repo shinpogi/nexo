@@ -1,14 +1,14 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "SHIN MAIN SCRIPT",
+   Name = "NEXO MAIN SCRIPT",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Made by SHINPOGI",
-   LoadingSubtitle = "by SHINPOGI",
+   LoadingTitle = "Made by NEXOONTOP",
+   LoadingSubtitle = "by SHIN",
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "CHEATNISHIN"
+      FileName = "NEXO.GG"
    },
 
    Discord = {
@@ -19,9 +19,9 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "SHIN MAIN CHEAT",
+      Title = "NEXO MAIN CHEAT",
       Subtitle = "LINK IN DISCORD",
-      Note = "SHIN POGI ON TOP PADIN", -- Use this to tell the user how to get a key
+      Note = "NEXO ON TOP!!!", -- Use this to tell the user how to get a key
       FileName = "Check Discord For Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
